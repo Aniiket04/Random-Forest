@@ -39,6 +39,7 @@ plt.gray()
 for i in range(4):
     plt.matshow(digits.images[i])
 ```
+plt.matshow(digits.images[i]) is used to visualize a specific digit image from the scikit-learn digits dataset.
 
 ### 4. Data processing
 ```python
